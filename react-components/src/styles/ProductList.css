@@ -1,7 +1,0 @@
-.products__container{
-    display: flex;
-    width: 90vw;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
