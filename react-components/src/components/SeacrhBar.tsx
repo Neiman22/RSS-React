@@ -11,7 +11,7 @@ function SearchBar () {
 
     function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
-        //Add search cards algoritm
+        //Add search cards algoritm 
     }
     return (
         <div className='search__container'>
