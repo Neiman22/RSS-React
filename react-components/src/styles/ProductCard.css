@@ -1,8 +1,9 @@
-p{
+p {
     margin: 0;
     font-size: 1vw;
     padding-left: 7px;
 }
+
 .product__container {
     display: flex;
     flex-direction: column;
@@ -22,6 +23,7 @@ p{
     font-weight: 600;
     height: 5vh;
 }
+
 .product__image{
     min-width: 100%;
     max-height: 10vh;
