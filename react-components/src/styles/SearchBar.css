@@ -1,0 +1,42 @@
+.search__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(103, 114, 127);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.search__header{
+    color: white;
+    font-size: 3vw;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.search__form{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(62, 69, 76);
+    border-radius: 10px;
+}
+
+.search__input{
+    padding-left: 15px;
+    font-size: 1.5vw;
+    width: 40vw;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(239, 236, 234);
+}
+
+.search__button{
+    border-radius: 5px;
+    border: none;
+    font-size: 1vw;
+    width: 12vw;
+    height: 4vw;
+    background-color: rgb(203, 201, 199);
+}

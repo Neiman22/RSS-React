@@ -1,0 +1,49 @@
+p{
+    margin: 0;
+    font-size: 1vw;
+    padding-left: 7px;
+}
+.product__container {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid rgb(115, 115, 115);
+    position: relative;
+}
+
+.product__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    height: 5vh;
+}
+.product__image{
+    min-width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.btnDetails {
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(115, 115, 115);
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.btnYeloow {
+    background-color: rgb(250 204 21);
+}
+
+.btnBlue {
+    background-color: rgb(96 165 250);
+}
