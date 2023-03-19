@@ -24,7 +24,7 @@ p {
     height: 5vh;
 }
 
-.product__image{
+.product__image {
     min-width: 100%;
     max-height: 10vh;
     object-fit: cover;
