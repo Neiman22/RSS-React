@@ -6,7 +6,7 @@ import '../styles/ProductList.css'
 function ProductList () {
     return (
         <div className='products__container'>
-            { productsArray.map(el => <ProductCard product={el} key={el.id} />) }
+            {productsArray.map(el => <ProductCard product={el} key={el.id}/>) }
         </div>
     )
 }
