@@ -23,7 +23,6 @@ function ProductCard ({ product }: ProductProps) {
             <button className={btnClassName} onClick={() => setDetails(prev => !prev)}>
                 {details ? 'Hide Details' : 'Show Details'}
             </button>
-            
             {details && <div>
                 <p>{product.description}</p>
             </div>}
